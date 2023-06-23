@@ -112,3 +112,5 @@ console.log(name1.toLowerCase() === name2.toLowerCase()); // Verifico che la lor
  Se la condizione è vera, il risultato sarà true
  Nella seconda console.log, ho verificato che l'uguaglianza tra name1 e name2 trasformando entrambe le stringhe in lowercase utilizzando 
  il metodo toLowerCase(). Se le stringhe, dopo la trasformazione, sono uguali, il risultato sarà true */
+
+ 

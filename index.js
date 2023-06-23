@@ -12,17 +12,17 @@ REGOLE
 */
 
 /* Ecco unesempio semplificato dei datatype in JavaScript 
-1) Numeri (Numbers): Puoi mettere numeri nella scatola. Ad esempio, potresti mettere il numero 5 o il numero 10. 
-I numeri ti aiutano a fare calcoli o contare oggetti.
+1) Numeri (Numbers): si possono mettere  numeri nella scatola. Ad esempio, potremmo  mettere il numero 5 o il numero 10. 
+I numeri aiutano a fare calcoli o contare oggetti.
 
-2)Stringhe (Strings): Puoi mettere parole o frasi nella scatola. Per esempio, potresti mettere la parola "cane" o la frase "Mi piace il gelato". 
-Le stringhe sono utili quando vuoi lavorare con il testo.
+2)Stringhe (Strings): Si possono mettere parole o frasi nella scatola. Per esempio,la parola "cane" o la frase "Mi piace il gelato". 
+Le stringhe sono utili quando vogliamo lavorare con il testo.
 
-3)Booleani (Booleans): Puoi mettere un piccolo segnalibro nella scatola che può essere vero o falso. Immagina di avere un segnalibro verde per "vero" e un segnalibro rosso per "falso". 
+3)Booleani (Booleans): Si può mettere un piccolo segnalibro nella scatola che può essere vero o falso. Immaginiamo di avere un segnalibro verde per "vero" e un segnalibro rosso per "falso". 
 I booleani ti aiutano a prendere decisioni.
 
-4)Array: Puoi mettere una lista di cose nella scatola. Ad esempio, potresti mettere una lista dei tuoi giocattoli preferiti. 
-Puoi mettere i tuoi giocattoli preferiti uno accanto all'altro all'interno della scatola. 
+4)Array: Puoi mettere una lista di cose nella scatola. Ad esempio, potremmo mettere una lista dei giocattoli preferiti. 
+Si possono  mettere i giocattoli preferiti uno accanto all'altro all'interno della scatola. 
 Puoi accedere a ciascun giocattolo in base alla sua posizione nella lista.
 
 5)Oggetti (Objects): Puoi mettere un gruppo di informazioni correlate nella scatola. Ad esempio, potresti mettere un oggetto chiamato "casa" nella scatola.
@@ -43,7 +43,7 @@ e la sedia potrebbe essere di un certo colore.
 L'oggetto ci permette di raggruppare queste informazioni in un unico posto, in modo che sia più facile accedervi e utilizzarle. Possiamo immaginare 
 l'oggetto come un contenitore organizzato che ci aiuta a tenere tutto in ordine.
 
-Quando lavoriamo con gli oggetti in JavaScript, possiamo accedere alle loro proprietà utilizzando il nome dell'oggetto seguito da un punto e il nome
+in JavaScript, possiamo accedere alle loro proprietà utilizzando il nome dell'oggetto seguito da un punto e il nome
  della proprietà. Ad esempio, se vogliamo conoscere il colore della sedia nella valigia "casa", possiamo scrivere "casa.sedia.colore" per ottenere questa 
 informazione.
 
@@ -89,12 +89,13 @@ l'operatore di assegnazione = per assegnare il valore "Domenico" alla variabile 
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 let x = 12;
-let risultato = 4 - x;
+let risultato = x -4;
 
 console.log(risultato);
 
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* In questo caso, ho utilizzato la parola chiave "let" per dichiarare la variabile "x" con valore 12 
+Successivamente, ho eseguito la sottrazione tra "x" e 4 e ho assegnato il risultato alla variabile "risultato". */
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -110,4 +111,7 @@ console.log(name1 !== name2); // Verifica che name1 sia diversa da name2
 
 console.log(name1.toLowerCase() === name2.toLowerCase()); // Verifico che la loro uguaglianza sia true quando entrambe vengono trasformate in lowercase
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* Nella prima console.log,  ho verificato se name1 è diversa da name2 utilizzando l'operatore di disuguaglianza (!==).
+ Se la condizione è vera, il risultato sarà true
+ Nella seconda console.log, ho verificato che l'uguaglianza tra name1 e name2 trasformando entrambe le stringhe in lowercase utilizzando 
+ il metodo toLowerCase(). Se le stringhe, dopo la trasformazione, sono uguali, il risultato sarà true */

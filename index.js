@@ -108,4 +108,7 @@ console.log(name1 !== name2); // Verifica che name1 sia diversa da name2
 
 console.log(name1.toLowerCase() === name2.toLowerCase()); // Verifico che la loro uguaglianza sia true quando entrambe vengono trasformate in lowercase
 
-/* -- */
+/* Nella prima console.log,  ho verificato se name1 è diversa da name2 utilizzando l'operatore di disuguaglianza (!==).
+ Se la condizione è vera, il risultato sarà true
+ Nella seconda console.log, ho verificato che l'uguaglianza tra name1 e name2 trasformando entrambe le stringhe in lowercase utilizzando 
+ il metodo toLowerCase(). Se le stringhe, dopo la trasformazione, sono uguali, il risultato sarà true */

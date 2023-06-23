@@ -29,25 +29,22 @@ Puoi accedere a ciascun giocattolo in base alla sua posizione nella lista.
  All'interno dell'oggetto "casa", puoi avere informazioni come il colore delle pareti, il numero di stanze e i mobili presenti. 
 Puoi accedere a ciascuna informazione dell'oggetto utilizzando il suo nome */
 
+
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
 */
 
-/* Immaginiamo che un oggetto in JavaScript sia come una valigia magica che può contenere molti oggetti diversi. 
+/* Immaginiamo che un oggetto in JavaScript sia come una valigia che può contenere molti oggetti diversi. 
 Ogni oggetto all'interno della valigia ha un nome, come "giocattolo" o "libro", e ha anche alcune informazioni associate ad esso.
 
-Ad esempio, se l'oggetto è una valigia magica chiamata "casa", all'interno potresti trovare oggetti come "letto", "tavolo" e "sedia". 
+Ad esempio, se l'oggetto è una valigia  chiamata "casa", all'interno potresti trovare oggetti come "letto", "tavolo" e "sedia". 
 Ogni oggetto ha delle caratteristiche specifiche. Ad esempio, il letto potrebbe avere una dimensione, il tavolo potrebbe avere una forma 
 e la sedia potrebbe essere di un certo colore.
 
-L'oggetto ci permette di raggruppare queste informazioni in un unico posto, in modo che sia più facile accedervi e utilizzarle. Possiamo immaginare 
-l'oggetto come un contenitore organizzato che ci aiuta a tenere tutto in ordine.
+L'oggetto ci permette di raggruppare queste informazioni in un unico posto, in modo che sia più facile accedervi e utilizzarle. 
+Possiamo immaginare l'oggetto come un contenitore organizzato che ci aiuta a tenere tutto in ordine.
 
-in JavaScript, possiamo accedere alle loro proprietà utilizzando il nome dell'oggetto seguito da un punto e il nome
- della proprietà. Ad esempio, se vogliamo conoscere il colore della sedia nella valigia "casa", possiamo scrivere "casa.sedia.colore" per ottenere questa 
-informazione.
-
-In sostanza, un oggetto in JavaScript è un modo per tenere insieme diverse informazioni correlate, come se fosse una valigia magica che può contenere 
+In sostanza, un oggetto in JavaScript è un modo per tenere insieme diverse informazioni correlate, come se fosse una valigia che può contenere 
 oggetti di diverso tipo. */
 
 /* ESERCIZIO 3
@@ -111,7 +108,4 @@ console.log(name1 !== name2); // Verifica che name1 sia diversa da name2
 
 console.log(name1.toLowerCase() === name2.toLowerCase()); // Verifico che la loro uguaglianza sia true quando entrambe vengono trasformate in lowercase
 
-/* Nella prima console.log,  ho verificato se name1 è diversa da name2 utilizzando l'operatore di disuguaglianza (!==).
- Se la condizione è vera, il risultato sarà true
- Nella seconda console.log, ho verificato che l'uguaglianza tra name1 e name2 trasformando entrambe le stringhe in lowercase utilizzando 
- il metodo toLowerCase(). Se le stringhe, dopo la trasformazione, sono uguali, il risultato sarà true */
+/* -- */
